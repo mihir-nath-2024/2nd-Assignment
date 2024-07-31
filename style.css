@@ -1,3 +1,4 @@
+
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -22,6 +23,9 @@
 
    }
  /* Buttton Styling */
+ .btn-primary:hover{
+    background-color: coral;
+ }
   .btn-primary{
  width: 186px;
     border-radius: 42px;
@@ -88,13 +92,13 @@
     font-weight: 500;
     font-size: .9rem ;
 }
-.inner-350{
-    background-color: #E6533C;
+/* .inner-350{
+    
     height: 30px;
     width: 30px;
     border-radius: 50%;
     margin-right: 10%;
-}
+} */
 
 
 
@@ -299,14 +303,25 @@
  }
 
  /* calculator section */
- td, th{
-    border: 1px solid white;
-    padding: 4%;
+ td {
+    color: rgba(255, 255, 255, 0.5);
+   
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+    padding-left: 4%;
+}
+th {color: #FFFFFF;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   text-align: left;
+   padding-left: 4%;
 
 }
 table{
     border-collapse: collapse;
     margin-bottom: 5%;
+    width: 310px;
+height: 216px;
+border: 1px solid rgba(255, 255, 255, 0.1);
 }
  
 
@@ -521,6 +536,7 @@ footer{
     color: #FFFFFF;
     margin-top: 0;
     padding: 1%;
+    
 }
 hr{
     width: 73vw;
@@ -613,7 +629,7 @@ hr{
     /* change section */
 
     .change-header h1{
-        font-size: 1.83rem;}
+        font-size: 1.7rem;}
   
    .change-header{
     width: auto;
@@ -688,6 +704,9 @@ hr{
         	flex-direction: column;        	    
         	margin: 5vh auto;
             align-items: center;}
+        .chart-table{
+            width: auto;
+        }
         
     /* calc-bmi Styling */
    
