@@ -1,4 +1,3 @@
-
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -8,11 +7,16 @@
       "slnt" 0;
   }
   /* section background */
+  *{
+    margin-top: 0%;
+    padding: 0%;
+  }
 
   body{
     background-color: black;
     color: #FFFFFF;
     margin: 0;
+    padding: 0%;
 
   }
   nav{
@@ -396,6 +400,7 @@ input::placeholder{
 .link{
     background-color: rgb(34, 34, 34);
     margin: 0;
+    width: 100vw;
 }
 .link-div{
     /* display: grid;
@@ -600,7 +605,7 @@ hr{
     }
     .banner-btn-container{
         display: flex;
-       margin: 0;
+       margin: 0 auto;
     }
     #span {
         font-family: 'Miama', sans-serif;
@@ -761,7 +766,10 @@ hr{
     .link h1{
         font-size: 4.1rem;
     }
-    
+    body, html{
+        width: 100vw;
+        overflow-x: hidden;
+        padding: 0.8em 0;
+    }
 
 }
-
