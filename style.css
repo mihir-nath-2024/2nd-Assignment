@@ -15,13 +15,16 @@
   body{
     background-color: black;
     color: #FFFFFF;
-    margin: 0;
-    padding: 0%;
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+    padding: 0;
 
   }
-  nav{
+  /* nav{
     background-color: black;
-  }
+  } */
    a{
     font-weight: 800;
 
@@ -33,7 +36,8 @@
   .btn-primary{
  width: 186px;
     border-radius: 42px;
-    padding: 15px;
+    /* padding: 15px; */
+    padding: 3% 5%;
     background-color: #E6533C;
 
     font-weight: 600;
@@ -45,12 +49,16 @@
 .btn-secondary{
     width: 186px;
     border-radius: 42px;
-    padding: 15px;
+    padding: 3% 5%;
     background-color: rgb(255, 255, 255, .1);
-    border: 1px solid rgb(255, 255, 255);
-
-
+    border: 1px solid rgb(255, 255, 255);  
+    margin-left: 4%;
 }
+.btn-secondary:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+}
+
 .btn-350{
   width: 168px;
    
@@ -111,13 +119,16 @@
 
   /* navbar Styling */
 
+  
+
 .nav-container{
     display: flex;   
     justify-content: space-between;
-    align-items: center;
-    /* margin: 3.5rem 11.88rem auto 11.88rem */
+    align-items: baseline;
+   
    width: 74vw;
-    margin:3.5rem auto auto auto;
+    margin:0 auto auto auto;
+    background: none;
 }
 .nav-container ul{
     display: flex;
@@ -168,6 +179,9 @@
     padding-right: 5%;
 }
 /* banner-section-design */
+.banner{
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+}
 
 
      
@@ -189,8 +203,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position:bottom right ;
-    background-color: black;
-    padding: 5%;
+   padding: 5%;
 
 }
 .banner-contents h1{
@@ -479,7 +492,7 @@ input::placeholder{
     background-color: darkcyan;
 }
 .trainer{
-    width: 340px;
+    width: 330px;
     height: 320px;
     background-repeat: no-repeat;
    background-size: cover;
@@ -569,9 +582,10 @@ hr{
     .nav-container{
         display: flex;
         justify-content: space-between ;
+        justify-items: center;
     }
     .hamburger-menu{
-       display: block;
+       display: flex;
        
     }
     .nav-container ul{
@@ -606,6 +620,7 @@ hr{
     .banner-btn-container{
         display: flex;
        margin: 0 auto;
+       
     }
     #span {
         font-family: 'Miama', sans-serif;
