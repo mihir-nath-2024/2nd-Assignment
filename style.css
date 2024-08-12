@@ -455,6 +455,7 @@ input::placeholder{
 }
 .link p{
     margin-bottom: 15%;
+    color: rgba(255, 255, 255, 1);;
 }
 
 /* Team section styling */
@@ -736,8 +737,8 @@ hr{
 
     }
     .trainer{
-        max-width: 340px;
-        height: 320px;
+        max-width: 310px;
+        /* height: 320px; */
     }
 
     /* calculator section */
@@ -813,7 +814,7 @@ hr{
         margin: 5px 0;
     }
     .link h1{
-        font-size: 4.1rem;
+        font-size: 3rem;
     }
     body, html{
         width: 100vw;
