@@ -77,6 +77,12 @@
 
 
 }
+.btn-350:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.btn-500:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
 .btn-500{
     width: 168px;
     
@@ -414,6 +420,7 @@ input::placeholder{
     background-color: rgb(34, 34, 34);
     margin: 0;
     width: 100vw;
+    color: rgba(255, 255, 255, 0.1);
 }
 .link-div{
     /* display: grid;
@@ -429,7 +436,9 @@ input::placeholder{
     text-decoration: none;
     list-style: none;
     margin-left: 0%;
+    color: rgba(255, 255, 255, 1);
 }
+
 .link h1{
     font-size: 5rem;
     text-align: left;
@@ -570,10 +579,14 @@ hr{
 
     /* button section */
     .btn-primary a{
-        font-size: 1rem;
-        font-weight: 800;}
+        font-size: .7rem;
+        font-weight: 800;
+   
+}
+
+
     .btn-secondary a{
-        font-size: 1rem;
+        font-size: .7rem;
         font-weight: 800;
 
     }
@@ -627,9 +640,15 @@ hr{
         font-weight: 400;
         font-size: 4rem;
     }
+    /* button section */
+
     .btn-primary{
-        margin-right: 10px;
-        padding: .9%;
+        padding: 3%;
+        height: fit-content;
+    }
+    .btn-secondary{
+        padding: 3%;
+        height: fit-content;
     }
     .btn-350 {
         max-width: 168px;
@@ -640,11 +659,19 @@ hr{
         top: 38%;
     }
     
-    .btn-500 {
+     .btn-500{
         max-width: 168px;
         position: relative;
-        left: 54%;
-        top: -28%;
+        left: 45%;
+        top: -15%;
+    
+            }
+    .btn-500 h2{
+        font-size: 1.7rem;
+    }
+    .btn-500 p{
+    font-size: .7rem;
+
     }
     /* change section */
 
@@ -688,7 +715,7 @@ hr{
         padding-bottom: 2.8%;
     }
     .run-img img{
-        max-width: 270px;
+        max-width: 100%;
         height: auto;
 
 
@@ -719,6 +746,7 @@ hr{
         row-gap: 7%;
         margin-bottom: 10%;
     }
+    
     .chart-div {
             display: flex;        	    
         	flex-direction: column;        	    
@@ -742,9 +770,15 @@ hr{
         padding: 7%;
         font-size: smaller;
        
+       
+    }
+    .input-width{
+        max-width: 45vw;
+
     }
     .activity {
-        padding: 3.7%;}
+        padding: 3.7%;
+    width: 94vw;}
    
     
     

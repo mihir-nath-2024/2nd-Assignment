@@ -1,0 +1,64 @@
+<div class="calc-bmi">
+    <h1>Calculate your BMI</h1>
+    <p>BMI calculator helps you understand your condition and set a goal for the betterment of your physical health</p>
+    <form class="form-input">
+        <input type="number" placeholder="Height/cm">
+        <input type="number" placeholder="Weight/kg">
+        <input type="number" placeholder="Age">
+        <select id="options" name="options">
+            <option value="option1">Sex</option>
+        </select>
+        <select class="activity" id="options" name="options">
+            <option value="option1">Select an activity factor</option>
+        </select>
+    </form>
+</div>
+
+<style>
+    .calc-bmi {
+        width: 100%;
+        max-width: 576px;
+        min-width: 320px;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .calc-bmi h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .calc-bmi p {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 1rem;
+    }
+
+    .form-input {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .form-input input,
+    .form-input select {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    @media (min-width: 576px) {
+        .form-input {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .form-input input:nth-child(3),
+        .form-input select:nth-child(4) {
+            grid-column: span 2;
+        }
+    }
+</style>
