@@ -157,8 +157,9 @@
     color: #FFFFFF;
     text-align: center;
     /* margin-left: 20px; */
-
-
+}
+.nav-a{
+    color: #FFFFFF;
 }
 .hamburger-menu{
     display: none;
