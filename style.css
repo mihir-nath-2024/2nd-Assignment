@@ -22,6 +22,9 @@
     padding: 0;
 
   }
+   p{
+    color: rgba(255, 255, 255,0.5);
+  }
   /* nav{
     background-color: black;
   } */
@@ -178,11 +181,14 @@
     height: 38px;
     background-color: #E6533C;
     border-radius: 46px;
-    font-weight: 600;
+   
     font-size: 1.12rem;
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
+}
+.btn-nav a{
+    font-weight: bold;
 }
 /* banner-section-design */
 .banner{
@@ -261,6 +267,7 @@
 .change-header p{
     margin-top: 1.5rem;
     font-size: .85rem;
+    color: rgba(255, 255, 255, 0.5);
 }
 /* .change-card-container{
     
@@ -281,17 +288,29 @@
     margin-top: 20px;
     margin-bottom: 5%;
 }
+
 .change-card p{
     font-size: .85rem;
     font-weight: 400;
-    color: #FFFFFF;
+   color: rgba(255, 255, 255, 0.5);
     text-align: center;
     margin: 0;
 }
 .change-card img{
     border-radius: 0 15% 0 15%;
-
-}
+   }
+   .image-zoom {
+    transition: transform 300ms ease-in-out;
+    border: 2px solid #000; /* Add border */
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.2);
+  }
+  
+  .image-zoom:hover {
+    transform: scale(1.2);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.5);
+  }
+  
+  
 .run-div{
     width: 73vw;
     margin: 5vh auto;
@@ -455,7 +474,7 @@ input::placeholder{
 }
 .link p{
     margin-bottom: 15%;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 /* Team section styling */
@@ -737,11 +756,16 @@ hr{
 
     }
     .trainer{
-        max-width: 310px;
-        /* height: 320px; */
+        width: 82vw;
+       height: 50vh;
+       
     }
 
     /* calculator section */
+    table{
+        width:80vw;
+
+    }
     form{
         column-gap: 2%;
         row-gap: 7%;
